@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@800&family=Roboto:wght@100;300;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body, html{
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+nav{
+    display: flex;
+    width:1250px ;
+    height: 80px;
+    margin: auto;
+}
+.logo img{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 160px;
+    overflow: hidden; 
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+  }
+  .navbar a{
+      display: block;
+      font-size: 16px;
+  }
+  a{
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .navbar div{
+    float: left;
+  }
+  .navbar div a{
+     display: block;
+     padding: 10px 20px;
+     color: rgb(0, 0, 0);
+  }
+  .navbar a:hover {
+    background: rgba(112, 128, 144, 0.19);
+    color: black;
+    border-radius: 20px;
+  }
+  .dropdown-menu{
+    position: absolute;
+    top: 80px;
+    display: none;
+ }
+ .dropdown-menu a{
+    padding: 10px 40px !important;
+    background-color: rgb(255, 255, 255);
+ }
+ .dropdown:hover .dropdown-menu{
+    display: block;
+ }
+ .menu-right{
+    float: left;
+ }
+ .menu-right a{
+    margin-bottom: 10px;
+ }
+ .heading{
+    
+    padding-left: 110px;
+    padding-top: 50px;
+ }
+ .heading span{
+    color: slategrey;
+ }
+ hr{
+   height: 0;
+   color: inherit;
+   border-top-width: 1px;
+   margin-top: 120px;
+ }
+ .filter{
+    width: 1200px;
+    height: 38px;
+    margin: auto;
+    padding-top: 120px;
+ }
+ .item{
+    display: flex;
+   
+ }
+ .item1{
+    display: flex;
+    width: 180px;
+    height: 38px;
+    border: 1px solid slategrey;
+    border-radius: 20px;
+ }
+ .item2{
+    display: flex;
+    width: 180px;
+    height: 38px;
+    border: 1px solid slategrey;
+    border-radius: 20px;
+    margin-left: 16px;
+ }
+ .item3{
+    display: flex;
+    width: 130px;
+    height: 38px;
+    border: 1px solid slategrey;
+    border-radius: 20px;
+    margin-left: 16px;
+ }
+ .item4{
+    display: flex;
+    width: 110px;
+    height: 38px;
+    border: 1px solid slategrey;
+    border-radius: 20px;
+    margin-left: 16px;
+ }
+ .item5{
+   display: flex;
+   width: 100px;
+   height: 38px;
+   border: 1px solid slategrey;
+   border-radius: 20px;
+   margin-left: 16px;
+ }
+ .item-child1{
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+ }
+ .item-child1 svg{
+    padding-top: 6px;
+ }
+ .item-child2{
+    font-size: 16px;
+    padding-top: 6px;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+ }
+ .item-child3{
+    font-size: 16px;
+    color: black;
+    padding-top: 3px;
+    padding-left: 5px;
+ }
+ .item-child4{
+    font-size: 16px;
+    color: black;
+  padding-left: 10px;
+  padding-top: 6px;
+ }
+ .item-child5{
+   font-size: 16px;
+    color: black;
+  padding-left: 3px;
+  padding-top: 6px;
+ }
+ .item1:hover{
+    background-color: rgba(135, 207, 235, 0.242);
+ }
+ .item2:hover{
+    background-color: rgba(135, 207, 235, 0.242);
+ }
+ .item3:hover{
+    background-color: rgba(135, 207, 235, 0.242);
+ }
+ .item4:hover{
+    background-color: rgba(135, 207, 235, 0.242);
+ }
+ .item5:hover{
+   background-color: rgba(135, 207, 235, 0.242);
+}
+ .mega-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 288px 288px 288px 288px;
+    grid-template-rows: 500px 500px;
+    padding-top: 76px;
+    padding-left: 75px;
+  }
+  .mega-grid-1{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: -33px;
+  }
+  .grid-1{
+    display: flex;
+    width: 286px;
+    height: 340px;
+    background-color: rgba(112, 128, 144, 0.105);
+    border-radius: 20px;
+  }
+  .grid-2{
+    width: 286px;
+    height: 155px;
+  }
+  .grid-2 h3{
+    margin-left: -24%;
+    margin-top: 5%;
+  }
+  .grid-2 span{
+    margin-left: -24%;
+  }
+  .costt{
+    width: 55px;
+    height: 35px;
+    color: rgb(30, 199, 30);
+    border:2px solid rgb(63, 203, 63) ;
+    margin-top: 8%;
+    font-size: 16px;
+    text-align: center;
+    border-radius:10px ;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .reviews{
+    margin-left: 40%;
+    margin-top: -15%;
+    color: slategrey;
+    cursor: pointer;
+  }
+  .main-end{
+   display: flex;
+  }
+  .number{
+   display: flex;
+   padding-left: 80px;
+   padding-top: 50px;
+  }
+  .num{
+   width: 45px;
+   height: 45px;
+   border: 1px solid slategrey;
+   color: black;
+   border-radius: 50%;
+   text-align: center;
+   padding: 10px;
+   margin-left: 4px;
+  }
+  .num:hover{
+   background-color: skyblue;
+  }
+  .button{
+   padding-top: 50px;
+  }
+  .btn{
+   width: 218px;
+   height: 57px;
+   background-color: #000000;
+   border: 1px solid slategrey;
+   color: rgb(255, 255, 255);
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius:50px;
+   font-size: 17px;
+   margin: 4px 2px;
+   cursor: pointer;
+   position: absolute;
+   margin-left: 796px;
+  }
+  .glidejs{
+   width: 1200px;
+   height: 540px;
+   margin: auto;
+   margin-top: 8%;
+  }
+  .section-heading{
+   width: 1200px;
+   height: 40px;
+  }
+  .text3xl{
+   font-size: 25px;
+  }
+  .glidejs-track{
+   display: flex;
+   width: 1200px;
+   height: 500px;
+   margin: auto;
+   margin-top: 6%;
+  }
+  .glid-active{
+   width: 395px;
+   height: 500px;
+  }
+  .glid-active-1{
+   width: 372px;
+   height: 240px;
+   border-radius: 20px;
+   background-color: #f5f5f5de;
+   background-size: cover;
+  
+  }
+  .grid{
+   display: grid;
+   gap: 6px 6px;
+   grid-template-columns: 120px 120px 120px;
+   grid-template-rows: 112px 112px;
+   height: 120px;
+   margin-top: 4%;
+  }
+  .grid1{
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 14px;
+   background-size:cover;
+  }
+  .glid-active-2{
+   width: 400px;
+   height: 110px;
+   margin-top: 2%;
+   font-size: 14px;
+  }
+  .review-1{
+   margin-top: 2%;
+  }
+  .review-1 span{
+   color: slategrey;
+  }
+  .cosst h4{
+   width: 55px;
+   height: 35px;
+   color: rgb(30, 199, 30);
+   border:2px solid rgb(63, 203, 63) ;
+   font-size: 16px;
+   text-align: center;
+   border-radius:10px ;
+   padding: -26px;
+   padding-top:6px ;
+   margin-left: 315px;
+   margin-top: -70px;
+   cursor: pointer;
+  }
+  .promo{
+   display: flex;
+   width: 1200px;
+   height: 400px;
+   margin: auto;
+   margin-top: 100px;
+ }
+ .promo-section{
+   display: inline-block;
+   width: 400px;
+   height: 350px;
+   margin-top: 3%;
+ }
+ .combo{
+   margin-top: 5%;
+ }
+ .semibold{
+   font-size: 40px;
+   margin-top: 35px;
+ }
+ .btnS{
+   padding-top: 50px;
+ }
+ .button-s {
+   width: 180px;
+   height: 55px;
+   background-color: #231f1ffb;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius:50px;
+   font-size: 18px;
+   cursor: pointer;
+   position: absolute;
+ }
+  :hover.button-s{
+   background-color: #000000;
+  }
+  .btnK{
+   padding-left: 200px;
+  }
+ .button-k {
+   width: 180px;
+   height: 55px;
+   background-color: #f3efefa5;
+   border: none;
+   color: rgb(0, 0, 0);
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius:50px;
+   font-size: 18px;
+   cursor: pointer;
+   position: absolute;
+ }
+ :hover.button-k{
+   background-color:#a19d9dd3 ;
+ }
+ .footer{
+   display: flex;
+   width: 1200px;
+   height: 400px;
+   margin: auto;
+  padding-top: 110px;
+  padding-left: 20px;
+  }
+  .footer-grid{
+   display: grid;
+   gap: 2.5rem;
+   grid-template-columns: 200px 200px 200px 200px 200px;
+   grid-template-rows: 200px;
+  }
+  .text-sm li{
+   list-style: none;
+   padding: 7px;
+  }
+  .text-sm h2{
+   font-size: 15px;
+   padding-left: 45px;
+  }
+  .text-sm ul li a{
+   font-size: 13px;
+   color: slategrey;
+  }
+ 
